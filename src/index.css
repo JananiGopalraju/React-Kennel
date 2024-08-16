@@ -1,0 +1,55 @@
+.container {
+  border: 1px solid rgb(182, 179, 179);
+  border-radius: 5px;
+  /* padding: 15px; */
+  margin: 20px;
+  max-width: 80%;
+  display:flex ;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  /* text-align: center; */
+}
+header h1{
+  text-align: center;
+  margin: 0;
+  font-size: 2em;
+}                     
+/* header ul{ */
+  /* display: flex; */
+  /* flex-direction: row; */
+/* text-align: center; */
+/* } */
+header {
+  background-color: rgb(224, 196, 101);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+ /* align-items: center; */
+}
+.ani{
+  padding: 20px;
+  background-color: rgb(196, 195, 145);
+line-height: 2em;
+margin: 0;
+display: flex;
+  /* flex-direction: row; */
+}
+/* .ani ul{
+  display: flex;
+  flex-direction: ;
+  align-items: center;
+} */
+Footer {
+  background-color: black;
+  color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+}
+.dogs {
+  display: flex;
+  flex-direction: row;
+}
+.dogs .img1, .img2, .img3 {
+  width: 33.39% ;
+  max-width: 33.5%;
+}
